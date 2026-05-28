@@ -1,17 +1,25 @@
 # Claude Usage Tracker — Downloads
 
-macOS 메뉴바 앱. 본인 칩에 맞는 .dmg 받아서 설치.
+macOS 메뉴바 앱.
 
-## 다운로드
+## 📦 다운로드
 
-➜ [최신 릴리스](https://github.com/jiyuyeon/claude-usage-tracker-releases/releases/latest)
+➜ **[최신 릴리스 (v0.1.3+)](https://github.com/jiyuyeon/claude-usage-tracker-releases/releases/latest)**
 
-- **Apple Silicon (M1/M2/M3/M4)**: `Claude-Usage-Tracker-*-arm64.dmg`
-- **Intel Mac**: `Claude-Usage-Tracker-*.dmg`
+### ⚠️ 본인 Mac 칩 확인 후 받으세요
+
+본인 Mac 칩 확인 방법: **사과 메뉴 () → 이 Mac에 관하여**
+
+| Mac 종류 | 받을 파일 |
+|---|---|
+| **Apple Silicon** (M1/M2/M3/M4 칩) | `Claude.Usage.Tracker-x.x.x-arm64.dmg` ← 파일명에 **`-arm64`** 포함 |
+| **Intel Mac** | `Claude.Usage.Tracker-x.x.x.dmg` ← 파일명에 **`-arm64` 없음** |
+
+**잘못 받으면 앱이 안 열립니다** (네이티브 모듈 호환성 문제).
 
 ## 설치
 
-1. 위 링크에서 본인 Mac 칩에 맞는 `.dmg` 다운로드
+1. 본인 Mac 칩에 맞는 `.dmg` 다운로드
 2. `.dmg` 더블클릭 → Claude Usage Tracker 아이콘을 **Applications 폴더로 드래그**
 3. Applications에서 앱 실행
 
